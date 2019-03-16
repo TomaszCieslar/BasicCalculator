@@ -152,6 +152,7 @@
             this.btnOdejmij.TabIndex = 13;
             this.btnOdejmij.Text = "-";
             this.btnOdejmij.UseVisualStyleBackColor = false;
+            this.btnOdejmij.Click += new System.EventHandler(this.btnOdejmij_Click);
             // 
             // btnDodaj
             // 
@@ -173,6 +174,7 @@
             this.btnPodziel.TabIndex = 15;
             this.btnPodziel.Text = "/";
             this.btnPodziel.UseVisualStyleBackColor = false;
+            this.btnPodziel.Click += new System.EventHandler(this.btnPodziel_Click);
             // 
             // btnPomnoz
             // 
@@ -183,6 +185,7 @@
             this.btnPomnoz.TabIndex = 16;
             this.btnPomnoz.Text = "*";
             this.btnPomnoz.UseVisualStyleBackColor = false;
+            this.btnPomnoz.Click += new System.EventHandler(this.btnPomnoz_Click);
             // 
             // btnPrzycisk0
             // 
